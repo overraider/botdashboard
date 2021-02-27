@@ -8,7 +8,7 @@ const router = express.Router();
 
 app.use(cors());
 
-mongoose.connect("mongodb+srv://admin:Qwerty123_@cluster0.ndjns.mongodb.net/BotOrders?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://", {
   useNewUrlParser: true
 });
 
