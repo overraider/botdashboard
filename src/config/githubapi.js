@@ -1,4 +1,4 @@
-import Octokat from "octokat";
+import Octokat from "octokat"; 
 
 export default class GithubAPi {
   constructor(username, repo, branch) {
