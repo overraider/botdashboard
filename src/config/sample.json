@@ -1,0 +1,14 @@
+{
+  "description": "This is a fidfdsfsdfe containing a dummy config in order to test our application.",
+  "name": "my config",
+  "users": [
+    { "active": true, "name": "alice", "roles": ["user", "admindd"] },
+    { "active": true, "name": "bob", "roles": ["user"] },
+    { "active": true, "name": "bodb", "roles": ["user"] },
+    { "active": true, "name": "bodab", "roles": ["user"] },
+    { "active": true, "name": "boasdb", "roles": ["user"] },
+    { "active": true, "name": "bobsd", "roles": ["user"] },
+    { "active": true, "name": "bsdob", "roles": ["user"] },
+    { "active": false, "name": "charlie", "roles": ["user"] }
+  ]
+}

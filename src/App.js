@@ -25,6 +25,7 @@ import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
 import axios from 'axios';
+import Config from "./config/config";
 
 
 
@@ -114,7 +115,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
+        <Config></Config>
       </header>
     </div>
   );
@@ -146,6 +147,7 @@ export default function Dashboard() {
 
   return (
     <div className={classes.root}>
+      <Config />
       <CssBaseline />
       <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)}>
         <Toolbar className={classes.toolbar}>
@@ -220,4 +222,6 @@ export default function Dashboard() {
     </div>
   );
 }
+
+
 
