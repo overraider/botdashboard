@@ -25,7 +25,7 @@ import Chart from './Chart';
 import Deposits from './Deposits';
 import Orders from './Orders';
 import axios from 'axios';
-import Config from "./config/config";
+import Config from "./config/config"; 
 
 
 
